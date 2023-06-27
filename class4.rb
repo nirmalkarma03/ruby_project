@@ -11,6 +11,7 @@ class Contant_var
 
 end
 
+
 object1=Contant_var.new;
 
 object1.show;
@@ -19,3 +20,36 @@ object1.show;
 # also optional add ;  end of line
 
 
+#pseudo variable
+puts "self =#{self}";
+puts "true =#{true}";
+puts "false=#{false} " ;
+puts "nil =#{nil}"
+
+#puts "_FILE_ = #{_FILE_}"
+#puts "_LINE_ = #{_LINE_}"
+
+
+# declare arry 
+puts ""
+puts "arry dec";
+puts ""
+
+arr=["ajay ","19","nirmal ","21","nitish","22"];
+arr.each do |i|
+	puts i;
+end
+
+# hash 
+puts ""
+puts "hash dec";
+puts ""
+hsh=color={"black"=>1111,"white"=>2222,"red"=>3333};
+hsh.each do |key , value|
+	print key ," is " ,value ,"\n";
+end
+puts ""
+
+color.each do |key,value|
+	print key ,"is " ,value,"\n";
+end
