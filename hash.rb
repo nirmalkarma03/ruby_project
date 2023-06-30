@@ -16,6 +16,6 @@ puts "#{h3['a']}"
 puts "#{h3['b']}"
 
 key=h3.keys
-puts key
+print key ,"\n"
 val=h3.values
-puts val
+print val,"\n"
