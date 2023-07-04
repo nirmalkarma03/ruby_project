@@ -36,6 +36,8 @@ class Emp
 		return "emp_id:#@emp_id ,ename :#@ename ,sal :#@sal "
 	end
 
+	
+
 end
 
 e1=Emp.new(101,"ajay",7000)

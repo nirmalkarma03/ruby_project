@@ -18,4 +18,4 @@ puts "#{h3['b']}"
 key=h3.keys
 print key ,"\n"
 val=h3.values
-print val,"\n"
+print val,"\n"B
